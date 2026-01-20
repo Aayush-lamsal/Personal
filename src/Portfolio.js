@@ -17,6 +17,7 @@ const skills = {
     "Automation & Log Analysis": ["PowerShell", "Scripting", "Windows Event Logs", "log analysis", "troubleshooting", "proactive issue detection"],
     "SaaS & Support Tools": ["ServiceNow", "Zendesk", "Jira", "ticketing workflows", "ITIL-based incident and change management", "knowledge base (KB) creation and maintenance", "cross - functional collaboration"],
     "Endpoint Management & Security": ["Windows Endpoint Deployment and Management(Microsoft Intune)", "device enrollment", "security", "compliance policies"],
+    "Application Support": ["system and application troubleshooting", "Remote Desktop (RDP) and virtual desktop access", "Basic Peripheral Support"],
     "Frontend": ["HTML5", "CSS3", "JSX", "Responsive Design", "JavaScript (ES6+)", "React.js", "TypeScript", "C#", "SQL"],
     "Backend & APIs": ["Python", "Flask", "Django", "Node.js", "Java", "Spring Boot", "REST API Integration & troubleshooting"],
     "Databases": ["MySQL", "PostgreSQL", "MongoDB", "Redis", "SQL", "Stored Procedures", "Triggers", "Data Migration", "Data Integrity"],
@@ -154,7 +155,7 @@ const experiences = [
             "Provide front-line desktop and application support to faculty, staff, and students through Zoom and FreshService, resolving issues with LMS and academic tools (Blackboard, YuJa, Honorlock).",
             "Create technical documentation, tutorials, and knowledge base pages for faculty and students, improving system understanding.",
             "Manage the FreshService ticketing system, efficiently handling day-to-day technical issues for academic tools",
-            "Develop and review •	 Provide thesis and dissertation formatting support while leading technology workshops and individualized training sessions for faculty, staff, and students materials, tutorials, and other documentation on university - standard technologies and multimedia",
+            "Provide thesis and dissertation formatting support while leading technology workshops and individualized training sessions for faculty, staff, and students materials, tutorials, and other documentation on university - standard technologies and multimedia",
             "Collaborate with faculty during summer remediation projects, assisting in making teaching materials fully accessible in compliance with current mandatory accessibility policies."
         ],
     },
@@ -163,22 +164,22 @@ const experiences = [
         org: "North Dakota State University",
         time: "2024 - Present",
         details: [
-            "Analyze large open-source repositories to study test maintenance and evolution.",
-            "Build Python tooling for automated metric extraction and correlation analysis.",
-            "Work collaboratively in research groups, participating in meetings and discussions while contributing through code reviews.",
-            "Extracted and processed large code repository datasets using Python, performing automated parsing and analysis.",
-            "Applied data extraction, parsing, and analysis tools (Python, Git, CSV/JSON processing) to derive insights from large repositories."
+            "Analyze large-scale datasets to identify patterns and troubleshoot data quality issues through statistical analysis and reporting",
+            "Conducting Master's thesis research on high-maintenance test behavior by mining large Java and Python repositories and applying LLM-based analysis to understand how test modifications align with production-code evolution.",
+            "Work collaboratively in research groups, participating in meetings and discussions while contributing through code reviews",
+            "Extracted and processed large code repository datasets using Python, performing automated parsing and analysis",
+            "Applied data extraction, parsing, and analysis tools (Python, Git, CSV/JSON processing) to derive insights from large repositories"
         ],
     },
 
     {
-        role: "Technical Consultant & Software Developer/",
+        role: "<Technical Consultant & Developer/>",
         org: "NeoSoftware pvt Ltd",
         time: "Feb 2023 - May 2024",
         details: [
-            "Developed SQL queries, stored procedures, and triggers to optimize large report retrieval, improving performance by 25%.",
+            "Provided dedicated Tier2/3 technical and application support for enterprise SaaS application across 15+ client organizations, including clients from the USA and Nepal, troubleshooting complex technical issues independently",
             "Provided SaaS technical support and troubleshooting for ERP/HRIS clients, diagnosed issues independently using database queries and log analysis without step-by-step guidance.",
-            "Provided remote Tier2/3 technical and application support for enterprise SaaS application across 15+ client organizations, troubleshooting complex technical issues independently",
+            "Delivered software demos and training to 15+ global technical and business stakeholders, boosting client acquisition by 60%.",
             "Delivered remote training sessions and created user documentation for newly deployed applications, supporting both technical and non-technical audiences",
             "Configured and deployed desktop applications with role-based access controls, managing permissions for 100+ users across multiple organizations",
             "Led ERP/HRIS deployments including database setup, configuration, and large-scale data migration securely in compliance with security policies, additionally developed core features such as a RAG-based chatbot for enhanced client solutions."
@@ -190,7 +191,7 @@ const experiences = [
         org: "IMS Software Pvt. Ltd",
         time: "Jan 2022 - Feb 2023",
         details: [
-            "Delivered customer-facing technical support for Enterprise applications, troubleshooting technical software and system issues.",
+            "Delivered customer-facing technical support for Enterprise applications, troubleshooting technical software and system issues and improving user experience by 40%.",
             "Tracked and resolved ticketed incidents, collaborating with cross - functional teams to efficiently diagnose and fix technical issues.",
             "Provided user support for applications delivered via virtual and remote desktop environments (RDP, VDI), resolving access and performance issues.",
             "Provided technical support to clients by generating custom ERP reports and resolving report-related issues.",
@@ -249,7 +250,8 @@ function Hero() {
 
                 <div>
                     <h1 className="text-5xl font-light tracking-tight">Aayush Lamsal</h1>
-                    <p className="text-sm mt-2">Software Engineer</p>
+                    <p className="text-sm mt-2">Software & Technology Enthusiast
+                    </p>
 
                     <div className="mt-10 text-sm space-y-4">
                         {NAV_ITEMS.map((item) => (
