@@ -269,7 +269,19 @@ function Hero() {
                         ))}
                     </div>
                 </div>
-                <div className="py-90 right-20 max-w-xs text-right text-sm leading-relaxed">
+                <div className="py-90
+    max-w-xs
+    text-sm
+    leading-relaxed
+
+    text-center
+    mx-auto
+
+    lg:text-right
+    lg:mx-0
+    lg:max-w-md
+    lg:absolute
+    lg:right-20">
                     <p>Born in 1999</p>
                     <p>in Hetauda, Nepal.</p>
                     <p>Believes great tech design</p>
